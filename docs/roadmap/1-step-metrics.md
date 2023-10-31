@@ -7,13 +7,13 @@ This document outlines key performance metrics for the Valence project, focusing
 ### **Tracking Precision**
 
 - **Definition:** The ratio of true positive tracks to the sum of true positives and false positives.
-- **Formula:** Precision = \( \frac{True Positives}{True Positives + False Positives} \)
+- **Formula:** Precision = $\frac{True Positives}{True Positives + False Positives}$
 - **Target:** Achieve a precision rate above 95%.
 
 ### **Tracking Recall**
 
 - **Definition:** The ratio of true positive tracks to the sum of true positives and false negatives.
-- **Formula:** Recall = \( \frac{True Positives}{True Positives + False Negatives} \)
+- **Formula:** Recall = $\frac{True Positives}{True Positives + False Negatives}$
 - **Target:** Maintain a recall rate above 90%.
 
 ## **2. Performance Metrics**
@@ -28,7 +28,7 @@ This document outlines key performance metrics for the Valence project, focusing
 
 - **Definition:** Time elapsed between capturing data and displaying processed results.
 - **Unit:** Milliseconds.
-- **Target:** Maintain latency below 100 ms.
+- **Target:** Median latency below 100 ms.
 
 ## **3. Reliability Metrics**
 
@@ -36,4 +36,4 @@ This document outlines key performance metrics for the Valence project, focusing
 
 - **Definition:** The accuracy and consistency of data recorded and processed by the system.
 - **Unit:** Error count or percentage.
-- **Target:** Aim for zero data integrity errors.
+- **Target:** Zero data integrity errors.
